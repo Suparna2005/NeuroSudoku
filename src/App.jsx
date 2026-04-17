@@ -6,9 +6,8 @@ import {
   Trophy, RotateCcw, Github
 } from 'lucide-react';
 
-// Using absolute path configured in Vite
-import logoImg from 'C:/Users/supar/.gemini/antigravity/brain/c4e34718-af12-42d8-8725-dbc58b1b8e12/sudoku_logo_1776398119107.png';
-import mascotImg from 'C:/Users/supar/.gemini/antigravity/brain/c4e34718-af12-42d8-8725-dbc58b1b8e12/sudoku_mascot_1776398159555.png';
+const logoImg = '/logo.png';
+const mascotImg = '/mascot.png';
 
 // Use local proxy for Vite in dev mode, or root relative path in Vercel production
 const API_BASE = import.meta.env.DEV ? 'http://127.0.0.1:8000/api' : '/api';
